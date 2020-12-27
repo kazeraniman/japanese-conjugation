@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/japanese-conjugation/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/japanese-conjugation/static/js/main.ef8c58fa.chunk.js",
-    "main.js.map": "/japanese-conjugation/static/js/main.ef8c58fa.chunk.js.map",
-    "runtime-main.js": "/japanese-conjugation/static/js/runtime-main.19290de0.js",
-    "runtime-main.js.map": "/japanese-conjugation/static/js/runtime-main.19290de0.js.map",
-    "static/js/2.8c772adc.chunk.js": "/japanese-conjugation/static/js/2.8c772adc.chunk.js",
-    "static/js/2.8c772adc.chunk.js.map": "/japanese-conjugation/static/js/2.8c772adc.chunk.js.map",
-    "static/js/3.bcd39a41.chunk.js": "/japanese-conjugation/static/js/3.bcd39a41.chunk.js",
-    "static/js/3.bcd39a41.chunk.js.map": "/japanese-conjugation/static/js/3.bcd39a41.chunk.js.map",
+    "main.css": "/japanese-conjugation/static/css/main.a067258e.chunk.css",
+    "main.js": "/japanese-conjugation/static/js/main.78033f5d.chunk.js",
+    "main.js.map": "/japanese-conjugation/static/js/main.78033f5d.chunk.js.map",
+    "runtime-main.js": "/japanese-conjugation/static/js/runtime-main.7ae59d11.js",
+    "runtime-main.js.map": "/japanese-conjugation/static/js/runtime-main.7ae59d11.js.map",
+    "static/js/2.3016b69b.chunk.js": "/japanese-conjugation/static/js/2.3016b69b.chunk.js",
+    "static/js/2.3016b69b.chunk.js.map": "/japanese-conjugation/static/js/2.3016b69b.chunk.js.map",
+    "static/js/3.5526e425.chunk.js": "/japanese-conjugation/static/js/3.5526e425.chunk.js",
+    "static/js/3.5526e425.chunk.js.map": "/japanese-conjugation/static/js/3.5526e425.chunk.js.map",
     "index.html": "/japanese-conjugation/index.html",
-    "static/css/main.8c8b27cf.chunk.css.map": "/japanese-conjugation/static/css/main.8c8b27cf.chunk.css.map",
-    "static/js/2.8c772adc.chunk.js.LICENSE.txt": "/japanese-conjugation/static/js/2.8c772adc.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/japanese-conjugation/static/media/logo.6ce24c58.svg"
+    "static/css/main.a067258e.chunk.css.map": "/japanese-conjugation/static/css/main.a067258e.chunk.css.map",
+    "static/js/2.3016b69b.chunk.js.LICENSE.txt": "/japanese-conjugation/static/js/2.3016b69b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.19290de0.js",
-    "static/js/2.8c772adc.chunk.js",
-    "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.ef8c58fa.chunk.js"
+    "static/js/runtime-main.7ae59d11.js",
+    "static/js/2.3016b69b.chunk.js",
+    "static/css/main.a067258e.chunk.css",
+    "static/js/main.78033f5d.chunk.js"
   ]
 }
