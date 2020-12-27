@@ -25,7 +25,6 @@ class HiraganaInput extends React.Component<any, any> {
         this.submissionHandler = this.submissionHandler.bind(this);
     }
 
-
     /**
      * Handle changes to the text and convert them to hiragana where possible.
      *
