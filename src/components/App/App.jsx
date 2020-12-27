@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import HiraganaInput from "../HiraganaInput/HiraganaInput";
+import Settings from "../Settings/Settings";
 
 function App() {
   return (
     <div className="App">
-      <HiraganaInput />
+      <Settings />
     </div>
   );
 }
