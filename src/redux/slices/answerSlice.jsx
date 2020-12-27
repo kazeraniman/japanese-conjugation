@@ -14,7 +14,6 @@ export const answerSlice = createSlice({
 
 export const { setWrittenAnswer } = answerSlice.actions;
 
-// @ts-ignore
 export const selectWrittenAnswer = state => state.answer.writtenAnswer;
 
 export default answerSlice.reducer;

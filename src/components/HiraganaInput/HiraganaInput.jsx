@@ -1,5 +1,4 @@
 import React from "react";
-import PropTypes from 'prop-types';
 import {TextField} from "@material-ui/core";
 import hiragana from "data/hiragana.json";
 
@@ -7,12 +6,8 @@ const JAPANESE_CHARACTER_REGEX = new RegExp("^[\u3040-\u309f]+$");
 const ERROR_TEXT = "Answer must be in Hiragana";
 
 
-class HiraganaInput extends React.Component<any, any> {
-    public static propTypes = {
-        onSubmit: PropTypes.func
-    }
-
-    constructor(props: any) {
+class HiraganaInput extends React.Component {
+    constructor(props) {
         super(props);
 
         this.state = {
@@ -30,7 +25,7 @@ class HiraganaInput extends React.Component<any, any> {
      *
      * @param event The text change event.  `event.target.value` contains the value of the input after the change.
      */
-    textChangeHandler(event: any) {
+    textChangeHandler(event) {
         let newConvertedText = ""
         let buffer = "";
 
@@ -46,7 +41,6 @@ class HiraganaInput extends React.Component<any, any> {
             buffer += targetChar;
 
             if (buffer in hiragana) {
-                // @ts-ignore
                 newConvertedText += hiragana[buffer];
                 buffer = "";
             }
@@ -66,7 +60,7 @@ class HiraganaInput extends React.Component<any, any> {
      *
      * @param event The key up event.  `event.key` contains the key which was pushed.
      */
-    submissionHandler(event: any) {
+    submissionHandler(event) {
         if (event.key !== "Enter") {
             return;
         }
